@@ -1,0 +1,27 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "index.js",
+  "os": ["!win32"],
+  "cpu": ["!arm"],
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "weather"
+  ],
+  "author": "Alexander Kuchuk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dafaqtx/weather-cli"
+  },
+  "bugs": {
+    "email": "dafaqtx@gmail.com"
+  }
+}
